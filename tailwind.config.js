@@ -2,10 +2,10 @@
 export default {
     content: ['./index.html', './src/**/*.{js,ts,jsx,tsx,css}'],
     theme: {
-        screens: {
-            md: { max: '861px' },
-            mob: { max: '27em' },
-        },
+        // screens: {
+        //     md: { max: '861px' },
+        //     mob: { max: '27em' },
+        // },
         fontSize: {
             xx: '0.8125em',
             nav: '0.91875em',
@@ -18,8 +18,8 @@ export default {
             nav: '0.039375em',
         },
         gridTemplateColumns: {
-            top: '1.1fr 1.2fr 3em',
-            nav: '1fr 1fr',
+            top: '1.1fr 1.2fr 1fr',
+            nav: '1fr 1fr 1fr',
             xxfr: '1.1fr 1.7fr 3em',
         },
         height: {
